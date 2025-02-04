@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500sp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+
+    <TextView
+        android:id="@+id/form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Registro"
+        android:textColor="@color/marron"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para el nombre de la madre -->
+    <EditText
+        android:id="@+id/nombreEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/b612"
+        android:hint="Nombre de la madre"
+        android:textSize="11sp" />
+
+    <!-- Campo para el nombre del bebé -->
+
+    <!-- Campo para la edad del bebé -->
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:fontFamily="@font/b612"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/perimetro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/b612"
+        android:hint="Nombre del bebé"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:fontFamily="@font/b612"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/unidadesComida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="7"
+        android:fontFamily="@font/b612"
+        android:hint="Fº nacimiento del bebé"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/botonAñadirRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/marron"
+        android:fontFamily="@font/b612"
+        android:text="Seleccionar imagen"
+        android:textSize="10sp" />
+
+    <!-- Botón 1 -->
+
+    <!-- Botón 2 -->
+
+</LinearLayout>

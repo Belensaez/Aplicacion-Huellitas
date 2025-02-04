@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:padding="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Fecha como título -->
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:paddingBottom="12dp"
+                android:text="📅 Fecha: 2024-02-01"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="12dp"
+                android:background="#DDDDDD" />
+
+            <!-- Nombre -->
+
+            <!-- Peso -->
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:paddingBottom="6dp"
+                android:text="⚖️ Peso: 70 kg"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+
+            <!-- Altura -->
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:paddingBottom="6dp"
+                android:text="📏 Altura: 1.75 m"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+
+            <!-- Perímetro Cefálico -->
+            <TextView
+                android:id="@+id/textViewPerimetroCefalico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:paddingBottom="6dp"
+                android:text="📏 Perímetro Cefálico: 34 cm"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+
+            <!-- Horas de sueño -->
+            <TextView
+                android:id="@+id/textViewHorasSueno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:paddingBottom="6dp"
+                android:text="😴 Horas de sueño: 8 h"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+
+            <!-- Cantidad de comidas -->
+            <TextView
+                android:id="@+id/textViewCantidadComidas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/b612"
+                android:text="🍽️ Comidas al día: 5"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

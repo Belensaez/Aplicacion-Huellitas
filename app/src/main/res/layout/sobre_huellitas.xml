@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400sp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/form_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Acerca de huellitas"
+        android:textColor="@color/marron"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/b612"
+        android:text="Propósito:"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/b612"
+        android:text="Huellitas es una aplicación diseñada para ayudar a padres y cuidadores a registrar el crecimiento y la salud de sus bebés. Permite llevar un control de citas médicas, vacunas, hitos importantes y otros aspectos clave del desarrollo infantil."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/b612"
+        android:text="Desarrollador:"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/b612"
+        android:text="Belén Sáez García"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/b612"
+        android:text="Año de desarrollo:"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/b612"
+        android:text="2025"
+        android:textSize="12sp" />
+
+    <!-- Campo para el nombre de la madre -->
+
+    <!-- Campo para el nombre del bebé -->
+
+    <!-- Campo para la edad del bebé -->
+
+
+
+    <!-- Botón 1 -->
+
+    <!-- Botón 2 -->
+
+</LinearLayout>

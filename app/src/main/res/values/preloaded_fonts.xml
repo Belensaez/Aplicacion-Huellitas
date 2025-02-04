@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alatsi</item>
+        <item>@font/alef</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/allura</item>
+        <item>@font/amaranth</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/aoboshi_one</item>
+        <item>@font/ar_one_sans</item>
+        <item>@font/b612</item>
+        <item>@font/baloo</item>
+        <item>@font/barlow_thin</item>
+        <item>@font/barriecito</item>
+        <item>@font/barrio</item>
+        <item>@font/basic</item>
+        <item>@font/beau_rivage</item>
+    </array>
+</resources>

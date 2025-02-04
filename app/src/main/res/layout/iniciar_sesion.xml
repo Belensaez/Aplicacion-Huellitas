@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400sp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Inicia sesión"
+        android:textColor="@color/marron"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para el nombre de la madre -->
+
+    <!-- Campo para el nombre del bebé -->
+
+    <!-- Campo para la edad del bebé -->
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:fontFamily="@font/b612"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:fontFamily="@font/b612"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="11sp" />
+
+    <!-- Botón 1 -->
+
+    <!-- Botón 2 -->
+
+</LinearLayout>
