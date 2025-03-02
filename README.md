@@ -53,3 +53,8 @@ Para ejecutar la aplicación localmente, sigue estos pasos:
 1. Clona el repositorio:
    ```sh
    git clone https://github.com/tu-usuario/huellitas.git
+
+   Abre el proyecto en Android Studio.
+2. Instala las dependencias necesarias a través de Gradle.
+3. Conecta un dispositivo o usa un emulador Android.
+4. Ejecuta la aplicación en el dispositivo o emulador. 🚀
