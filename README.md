@@ -9,9 +9,7 @@
 ## 📝 **Características**  
 - 🌈 **Interfaz fácil de usar** para registrar y seguir el crecimiento y progreso del bebé.  
 - 📅 **Calendario interactivo** para anotar hitos importantes, vacunas, citas médicas y más.  
-- ⏰ **Recordatorios** para citas médicas y fechas de vacunas.  
-- 📊 **Seguimiento visual** de hitos de desarrollo del bebé, como peso, altura, y primeros logros.  
-- 👶 **Posibilidad de crear múltiples perfiles** para diferentes niños si es necesario.  
+- 📊 **Seguimiento visual** de hitos de registros del bebé, como peso, altura, y horas de sueño.  
 - 🔔 **Notificaciones automáticas** para mantener a los cuidadores al tanto de las próximas fechas importantes.  
 - 💾 **Almacenamiento seguro** de información personal y médica del bebé usando **SQLite** como base de datos local.  
 
@@ -37,7 +35,6 @@
 ### 🖥️ **Front-End**  
 - **Kotlin**  
 - **Android SDK**  
-- **Jetpack Compose** (para la creación de la interfaz de usuario)
 
 ### 📚 **Base de Datos**  
 - **SQLite** (para almacenamiento local de datos)
