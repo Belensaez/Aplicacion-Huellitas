@@ -15,6 +15,23 @@
 - 🔔 **Notificaciones automáticas** para mantener a los cuidadores al tanto de las próximas fechas importantes.  
 - 💾 **Almacenamiento seguro** de información personal y médica del bebé usando **SQLite** como base de datos local.  
 
+### 📝 **Nuevo Registro de Datos del Bebé**  
+- **Registro de datos diarios**: Los cuidadores pueden registrar información sobre el bebé, como:  
+  - Horas de sueño 🛏️  
+  - Cantidad de veces que ha comido 🍽️  
+  - Peso ⚖️  
+  - Altura 📏  
+  - Perímetro cefálico 🧠  
+
+### 📜 **Historial de Registros**  
+- Hay un apartado donde los cuidadores pueden ver el **historial completo** de todos los registros previos, permitiendo revisar la evolución del bebé a lo largo del tiempo. 📅  
+
+### 🚦 **Indicadores de Estado**  
+- Un sistema visual con **botones de colores** (rojo, verde y naranja) para mostrar la **salud del bebé** según el último registro:  
+  - 🟥 **Rojo**: Datos alarmantes  
+  - 🟩 **Verde**: Datos normales  
+  - 🟧 **Naranja**: Datos preocupantes pero no alarmantes  
+
 ## 💻 **Tecnologías Utilizadas**  
 
 ### 🖥️ **Front-End**  
