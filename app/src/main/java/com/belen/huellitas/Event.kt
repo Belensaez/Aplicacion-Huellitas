@@ -1,4 +1,4 @@
-package com.example.huellitas
+package com.belen.huellitas
 
 data class Event(
     val id:Int,

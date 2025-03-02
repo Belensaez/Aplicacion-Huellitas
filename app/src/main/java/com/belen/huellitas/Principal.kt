@@ -1,4 +1,4 @@
-package com.example.huellitas
+package com.belen.huellitas
 
 import android.app.Activity
 import android.content.Context
@@ -22,7 +22,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
-import com.example.huellitas.R.*
+import com.belen.huellitas.R.*
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

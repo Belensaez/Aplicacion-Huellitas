@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.huellitas"
+    namespace = "com.belen.huellitas"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.huellitas"
+        applicationId = "com.belen.huellitas"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

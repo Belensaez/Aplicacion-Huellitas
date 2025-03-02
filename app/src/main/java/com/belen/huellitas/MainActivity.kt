@@ -1,4 +1,4 @@
-package com.example.huellitas
+package com.belen.huellitas
 
 import android.app.Activity
 import android.app.DatePickerDialog

@@ -1,4 +1,4 @@
-package com.example.huellitas
+package com.belen.huellitas
 
 import Registro
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.example.huellitas
+package com.belen.huellitas
 
 import android.app.AlertDialog
 import android.app.TimePickerDialog
